@@ -1,0 +1,10 @@
+LLM: mwiewior/bielik
+DOCUMENTS_DIR: documents
+DB_DIR: docs/chroma/
+PROMPT: >
+  Wykorzystaj podany tekst, żeby odpowiedzieć na pytania.
+  Nie staraj się wymyślać odpowiedzi, jeżeli jej nie znasz.
+  Wtedy napisz, nie znam się na danym problemie. Staraj się być zwięzły, użyj maksymalnie 3 zdań.
+  {context}
+  Pytanie: {question}
+  Odpowiedż:
